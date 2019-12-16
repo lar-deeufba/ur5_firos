@@ -1,0 +1,26 @@
+printer3d1/printer3d
+{
+
+    "printer3d1":{
+      "topics": {
+          "printer3d": {
+              "msg": "octo_ros.msg.PrinterState",
+              "type": "subscriber"
+          }
+        }
+    }
+
+    ,
+    "end_end_test":{
+        "topics": {
+            "p1": {
+                "msg": "std_msgs.msg.String",
+                "type": "publisher"
+            },
+            "s1": {
+                "msg": "std_msgs.msg.String",
+                "type": "subscriber"
+            }
+        }
+    }
+}

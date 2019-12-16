@@ -1,0 +1,10 @@
+{
+    "environment": "test",
+  
+    "test": {
+        "contextbroker": {
+            "address"   : "TestAdress",
+            "port"      : 1234
+        }
+    }
+}

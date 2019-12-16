@@ -1,0 +1,34 @@
+site_name: FIROS
+site_url: https://firos.readthedocs.org
+repo_url: https://github.com/iml130/firos.git
+site_description: FIROS
+docs_dir: doc/
+site_dir: html
+markdown_extensions: [toc, fenced_code]
+use_directory_urls: false
+theme: readthedocs
+extra_css:
+  [
+    "https://www.fiware.org/style/fiware_readthedocs.css",
+    "https://www.fiware.org/style/fiware_readthedocs_iot.css",
+  ]
+
+
+nav:
+    - Home: index.md
+    - Getting Started: start.md
+    - User & Programmers Manual: 
+        - Introduction: user/introduction.md
+        - Interfaces: user/interfaces.md
+        - API Walkthrough: user/api.md 
+    - Installation & Administration:
+        - Introduction: install/introduction.md
+        - Installation: install/install.md
+        - Configuration: install/configuration-files.md
+        - Example: install/turtlesim-example.md
+        - Creating own Standards: install/standards.md
+        - Deinstallation: install/deinstall.md
+        - Upgrading from previous versions: install/upgrade.md
+    - Usage: usage.md
+    - Deprecated Functionality: deprecated.md
+    - Roadmap: roadmap.md

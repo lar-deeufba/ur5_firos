@@ -1,0 +1,26 @@
+{
+    "environment": "test",
+  
+    "test": {
+        "context_type": "TestContext",
+        "server": {
+            "port": 12345
+        },
+        "contextbroker": {
+            "address"   : "TestAdress",
+            "port"      : 1234,
+            "subscription": {
+              "throttling": 0,
+              "subscription_length": 99,
+              "subscription_refresh_delay": 0.1
+            }
+        },
+
+        "node_name": "TestFIROS",
+        "ros_subscriber_queue": 9,
+        "rosbridge_port": 4321,
+        "pub_frequency": 1,
+
+        "log_level": "WARNING"
+    }
+}
