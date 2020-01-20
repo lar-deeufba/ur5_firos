@@ -1,27 +1,12 @@
 {
 
-    "ur5": {
-
-        "topics": {
-
-            "sensors": {
-
-                "msg": "concatenate_firos.msg.UR5State",
-
-                "type": "subscriber"
-
-            },
-
-            "pose": {
-
-                "msg": "turtlesim.msg.Pose",
-
-                "type": "subscriber"
-
-            }
-
+    "pickandplace1":{
+      "topics": {
+          "pickandplace": {
+              "msg": "concatenate_firos.msg.UR5State",
+              "type": "subscriber"
+          }
         }
-
     }
 
 }
