@@ -9,6 +9,7 @@ If not, then run the shell script:
 ``` $ ./create_subs.sh ```
 
 When created, you should see the following:
+![guide](https://user-images.githubusercontent.com/24254286/72857932-dd62e780-3c9d-11ea-8cbd-189a775c1014.png)
 
 Run FIROS:
 
