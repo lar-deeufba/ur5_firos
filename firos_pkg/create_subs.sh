@@ -22,7 +22,7 @@ curl --request POST \
   --data '{
   "description": "3D Printer changes",
   "subject": {
-    "entities": [{"idPattern": ".*", "type": "3dprinter"}],
+    "entities": [{"idPattern": ".*", "type": "printer3d"}],
     "condition": { 
       "attrs": [ ]
     }
